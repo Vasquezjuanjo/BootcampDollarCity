@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: rgb(188, 239, 239);
+    background-image: url(./numros.webp);
+    color: rgb(1, 11, 19);
+    padding: 130px;
+    font-size: x-large;
+    font-style: oblique;
+}

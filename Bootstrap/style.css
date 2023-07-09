@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(195, 245, 228);
+    text-align: center;
+}
+
+header{
+    font-size: 25px;
+}
+
+.container{
+color: #1b1818;
+text-align: center;
+   width:600px;
+   margin: auto;
+   margin-right: auto;
+   padding: 80px;
+}
+
+  div{
+ 
+  }  
