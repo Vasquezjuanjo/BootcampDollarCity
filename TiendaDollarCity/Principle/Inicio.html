@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Inscripción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #inscribirse-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #inscribirse-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1> Bienvenido a nuestro sitio web </h1>
+    
+    <button id="inscribirse-btn">Inscribirse</button>
+
+    <script>
+        var inscribirseBtn = document.getElementById('inscribirse-btn');
+        inscribirseBtn.addEventListener('click', function() {
+            window.location.href = 'pagina_completar_informacion.html';
+        });
+    </script>
+</body>
+</html>
